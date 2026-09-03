@@ -105,30 +105,6 @@ Spring Cloud LoadBalancer
 Spring Cloud Gateway
 Maven
 IntelliJ IDEA
-## 📂 Project Structure
-QuickBites/
-│
-├── Users/
-│  ├── src/
-│  └── pom.xml
-│
-├── Orders/
-│  ├── src/
-│  └── pom.xml
-│
-├── Resturant/
-│  ├── src/
-│  └── pom.xml
-│
-├── EurekaServer/
-│  ├── src/
-│  └── pom.xml
-│
-├── GATEWAY/
-│  ├── src/
-│  └── pom.xml
-│
-└── pom.xml
 ## ▶ Running the Application
 Start the following services:
 EurekaServer → 8761
@@ -170,19 +146,19 @@ Fault tolerance
 Async communication
 ## 📌 Project Status
 ### ✅ Completed
-[x] Users Service
-[x] Orders Service
-[x] Resturant Service
-[x] MySQL + JPA
-[x] Simple Spring Security
-[x] OpenFeign Communication
-[x] Eureka Service Registry
-[x] Eureka Service Discovery
-[x] Spring Cloud LoadBalancer
-[x] API Gateway
-[x] Gateway Service Discovery
+Users Service
+Orders Service
+Resturant Service
+MySQL + JPA
+Simple Spring Security
+OpenFeign Communication
+Eureka Service Registry
+Eureka Service Discovery
+Spring Cloud LoadBalancer
+API Gateway
+Gateway Service Discovery
 ### 🛠 Future Enhancements
-[ ] Resilience4j
-[ ] JWT Authentication
-[ ] Apache Kafka / Async
-[ ] Redis
+1.Resilience4j
+2.JWT Authentication
+3.Apache Kafka / Async
+4.Redis
